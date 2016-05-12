@@ -1,0 +1,22 @@
+# Fdb version 3
+["pdflatex"] 1413253925 "ps1_sol.tex" "ps1_sol.pdf" "ps1_sol" 1413253926
+  "/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amsbsy.sty" 1362954379 2412 2d98314dc5be38f455f8890deeb2d091 ""
+  "/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amsgen.sty" 1362954379 4357 ad30ad08920902fc9b38caf35a3b0496 ""
+  "/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amsmath.sty" 1362954379 79178 b2e326c351e876df0e5e23df2e02441b ""
+  "/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amsopn.sty" 1362954379 4082 502152465aedb8f6a3c4b0b7c0fa8ae5 ""
+  "/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amstext.sty" 1362954379 2637 846ebe982d3549c7ede7ce135456f54a ""
+  "/usr/local/texlive/2014/texmf-dist/tex/latex/base/article.cls" 1399675188 20496 66dd832c447553f6776fbeac03bb0580 ""
+  "/usr/local/texlive/2014/texmf-dist/tex/latex/base/latexsym.sty" 1399675188 2642 083c9eea72717a651b2ddd06de3f46d4 ""
+  "/usr/local/texlive/2014/texmf-dist/tex/latex/base/size12.clo" 1399675188 8978 ae5f64dacfe4ff1b713dec8fd98fb590 ""
+  "/usr/local/texlive/2014/texmf-dist/tex/latex/base/ulasy.fd" 1399675188 1808 3f24ba410a051b69ce7c7e3574f03724 ""
+  "/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/ot1pcr.fd" 1137110629 985 1ed784d7bfe47179f3550d2303b073f8 ""
+  "/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/ot1ptm.fd" 1137110629 961 15056f4a61917ceed3a44e4ac11fcc52 ""
+  "/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/times.sty" 1156702453 857 6c716f26c5eadfb81029fcd6ce2d45e6 ""
+  "/usr/local/texlive/2014/texmf-dist/tex/latex/url/url.sty" 1388531844 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
+  "macros.tex" 1346179276 15263 617fd9c071c5bdbc4f36b17c516bb755 ""
+  "ps1_sol.aux" 1413253925 8 a94a2480d3289e625eea47cd1b285758 ""
+  "ps1_sol.tex" 1346185824 12932 71d96c527918fb8e6ea931ff90535284 ""
+  (generated)
+  "ps1_sol.log"
+  "ps1_sol.pdf"
+  "ps1_sol.aux"
