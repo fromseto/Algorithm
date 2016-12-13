@@ -1,4 +1,4 @@
-import Queue as Q
+import collections
 import pdb
 
 class TreeNode:
@@ -9,16 +9,16 @@ class TreeNode:
 
 class Solution(object):
     def findNodeofOneLevel(self,qp):
-        size = qp.qsize()
+        size = len(qp)
         i = 0
-        for node in iter(qp.get,None):
+        for node in list(qp):
             if i>= size: break
             if node.left != None:
-                qp.put(node.left)
+                qp.append(node.left)
             if node.right != None:
-                qp.put(node.right)
+                qp.append(node.right)
             i = i+1
-        qp.pop(node)
+            qp.popleft()
         print qp
         return qp
         
@@ -27,14 +27,18 @@ class Solution(object):
         :type root: TreeNode
         :rtype: List[List[int]]
         """
-        q = Q.Queue()
-        q.put(root)
+        # q = Q.Queue()
+        q = collections.deque()
+        q.append(root)
         
-        pdb.set_trace()
-        result = [[root.val]]
-        while not q.empty():
-            q = self.findNodeofOneLevel(q)
-            result.append([v.val for v in q])
+        result = []
+        if root != None:
+            result = [[root.val]]
+            # while not q.empty():
+            while len(q) !=0:
+                q = self.findNodeofOneLevel(q)
+                if len(q) != 0:
+                    result.append([v.val for v in q])
         return result
 
 if __name__ == "__main__":
