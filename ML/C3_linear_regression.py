@@ -19,3 +19,13 @@ print(regr.coef_)
 est = smf.ols('Sales ~ TV', advertising_df).fit()
 print est.summary().tables[1]
 
+## multiple linear regression
+X = advertising_df[['Radio', 'TV']].as_matrix()
+y = advertising_df.Sales
+
+regr.fit(X,y)
+print(regr.coef_)
+print(regr.intercept_)
+est = smf.ols('Sales ~ Radio + TV', advertising_df).fit()
+est.summary()
+print est.summary().tables[1]
